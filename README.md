@@ -1,8 +1,8 @@
-# Persistent TCP Transfer over Mininet ⭐
+## Persistent TCP Transfer over Mininet ⭐
 
 Implementation of persistent TCP connection using python. The folders contain persistent TCP clients and servers using thread or fork models for multiple connection requests. The servers and clients are run on mininet using the scripts provided on custom or pre-defined topology of mininet.
 
-## Codebase Directory Architecture: 📁
+### Codebase Directory Architecture: 📁
 
 ```
 persistent_tcp_mininet
@@ -74,7 +74,7 @@ persistent_tcp_mininet
 
 ```
 
-## Features checklist ✅
+### Features checklist ✅
 
 ```
 ✅ File transfer over Persistent TCP
@@ -84,6 +84,6 @@ persistent_tcp_mininet
 
 ```
 
-## Instructions to Run :runner:
+### Instructions to Run :runner:
 
 - Each folder contains the specific instructions to run the servers and clients.
