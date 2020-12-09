@@ -1,0 +1,18 @@
+The directory structure is as follows:
+    "Client" folder containing "tcp_client.py". All downloaded files will be stored in the "files_received" folder here.
+    "Server" folder containing "tcp_server.py". 
+    "novel" folder containing all five books.
+
+////////////////////////////
+//TCP Client/Server
+///////////////////////////
+
+1) To run the client, run `python3 tcp_client.py` command in the shell. It will ask for the number of books to download from
+    the server. Input a value from 1-5. Then it will ask for a number corresponding to which will be the book to download. 
+2) To run the server, run `python3 tcp_server.py` command in the shell.
+3) After the input is received, client will connect to the server and download the respective books in "files_received" 
+    folder.
+4) The buffer size in the client and server can be set by changing the value corresponding to variable "BUFFER_SIZE" in 
+    "tcp_client.py" and "tcp_server.py" files.
+5) The client displays the connection setup time, calculated throughput and download time for each file 
+    as well as the aggregate throughput and total download time in the prompt.

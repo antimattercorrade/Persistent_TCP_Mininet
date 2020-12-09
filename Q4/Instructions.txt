@@ -1,0 +1,17 @@
+The directory structure is as follows:
+    "client" folder containing "tcp_client.py". 
+    "server" folder containing "tcp_server_sc_thread.py". 
+    "novel" folder containing all five books.
+    "mininet_scripts" folder containing scripts for running server and client on mininet. All downloaded files will be 
+    stored in the "files_received" folder here.
+
+////////////////////////////
+//Mininet Scripts
+///////////////////////////
+
+1) To run teh scripts, run "sudo python3 part_<?>.py" where <?> is replaced by the respective part of Question 4, i.e.
+    k-m. 
+2) The above command will create a mininet topology as specified in the script and run the server and client instances
+    at the respective hosts.
+3) The output for all of the clients can be seen on the terminal after every client has finished downloading the file.
+4) The mininet network will then terminate after the above operation.
